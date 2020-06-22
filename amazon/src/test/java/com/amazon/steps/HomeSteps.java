@@ -12,6 +12,7 @@ public class HomeSteps extends HomePage{
 	public void want_launch_app (String browser) {
 		openBrowser(browser);
 		launchApp();
+		System.out.println("Hi");
 	}
 	
 	@And ("^I want to search for an item \"(.*)\" from \"(.*)\" category$")
